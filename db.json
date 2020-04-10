@@ -1,9 +1,18 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    { "id": 1, "title": "Post 1", "body": "this is very random body of a very random post" },
+    { "id": 2, "title": "Post 2", "body": "yet, another random body of a very random post" },
+    { "id": 3, "title": "Post 3", "body": "even more random body of even more random post" },
+    { "id": 4, "title": "Post 4", "body": "freestyla, rakamakafon" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    { "id": 1, "name": "Angelo Kelly", "email": "kelly@family.com", "body": "I can't help myself", "postId": 1 },
+    { "id": 2, "name": "Mel B", "email": "melb@spicegirls.com", "body": "spice up your life", "postId": 2 },
+    { "id": 3, "name": "Marylin Manson", "email": "666@mm.com", "body": "I hate everyone", "postId": 3 },
+    { "id": 4, "name": "Justin Bieber", "email": "jb@jb.com", "body": "I am from Canada, yaaay", "postId": 4 }
+
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
